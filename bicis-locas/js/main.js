@@ -3,7 +3,7 @@ var elementoSpan=document.getElementsByTagName("span");
 var opcion=document.getElementById("opcion");
 var remember=document.getElementById("recordarme")
 var expresion = /^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$/;
-var correoExpresion=/\w+@\w+\.+[a-z]/ ;
+var correoExpresion=/\w+@\w+\.+[com]/ ;
 
 function validateForm(){
   if(elementoClase[0].value=="" && elementoClase[1].value=="" && elementoClase[2].value=="" && elementoClase[3].value==""){
